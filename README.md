@@ -10,3 +10,5 @@
 4. Create a redux folder in src.
 5. Create store.js in redux folder.
 6. Create bgSlice.js in redux.
+7. Create a components folder.
+8. Create Buttons.js in components folder.
