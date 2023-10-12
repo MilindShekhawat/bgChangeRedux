@@ -3,20 +3,20 @@ import { createSlice } from "@reduxjs/toolkit";
 
 //2. Set an initialState
 const initialState = {
-    bg: 'white'
+    bg: '#abcdef'
 }
 
 //3. Create a slice using createSlice
 export const bgSlice = createSlice({
     //4. Give name and initialState to start with.
-    name: 'white',
+    name: 'lightBlue',
     initialState,
 
     //5. Define reducers
     reducers: {
         //6. Create a reducer
         bgChange: (state, action) => {
-            
+            state.bg = action.payload
         }
     }
 });
