@@ -9,4 +9,4 @@
 3. Install next-redux-wrapper. `npm install next-redux-wrapper`
 4. Create a redux folder in src.
 5. Create store.js in redux folder.
-6. Create bgchangerSlice.js in redux.
+6. Create bgSlice.js in redux.
